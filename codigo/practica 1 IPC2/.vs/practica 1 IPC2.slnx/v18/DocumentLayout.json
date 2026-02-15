@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4755D49C-95A9-41AD-8567-B1EC01F8BC51}|practica 1 IPC2\\practica 1 IPC2.csproj|c:\\users\\hola k hace\\documents\\-ipc2_practica1_202408977\\codigo\\practica 1 ipc2\\practica 1 ipc2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4755D49C-95A9-41AD-8567-B1EC01F8BC51}|practica 1 IPC2\\practica 1 IPC2.csproj|solutionrelative:practica 1 ipc2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|c:\\users\\hola k hace\\documents\\-ipc2_practica1_202408977\\codigo\\practica 1 ipc2\\practica 1 ipc2\\librodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|solutionrelative:practica 1 ipc2\\librodigital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|c:\\users\\hola k hace\\documents\\-ipc2_practica1_202408977\\codigo\\practica 1 ipc2\\practica 1 ipc2\\materialbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|solutionrelative:practica 1 ipc2\\materialbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|c:\\users\\hola k hace\\documents\\-ipc2_practica1_202408977\\codigo\\practica 1 ipc2\\practica 1 ipc2\\librofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|solutionrelative:practica 1 ipc2\\librofisico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|c:\\users\\hola k hace\\documents\\-ipc2_practica1_202408977\\codigo\\practica 1 ipc2\\practica 1 ipc2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76129CD3-A51E-70A9-E7C1-A200B4D0167B}|practica 1 IPC2\\practica 1 IPC2.csproj|solutionrelative:practica 1 ipc2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LibroDigital.cs",
+              "DocumentMoniker": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\LibroDigital.cs",
+              "RelativeDocumentMoniker": "practica 1 IPC2\\LibroDigital.cs",
+              "ToolTip": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\LibroDigital.cs",
+              "RelativeToolTip": "practica 1 IPC2\\LibroDigital.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T23:27:34.329Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\Program.cs",
               "RelativeDocumentMoniker": "practica 1 IPC2\\Program.cs",
               "ToolTip": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\Program.cs",
               "RelativeToolTip": "practica 1 IPC2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T23:02:37.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MaterialBiblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\MaterialBiblioteca.cs",
+              "RelativeDocumentMoniker": "practica 1 IPC2\\MaterialBiblioteca.cs",
+              "ToolTip": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\MaterialBiblioteca.cs",
+              "RelativeToolTip": "practica 1 IPC2\\MaterialBiblioteca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T23:09:34.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibroFisico.cs",
+              "DocumentMoniker": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\LibroFisico.cs",
+              "RelativeDocumentMoniker": "practica 1 IPC2\\LibroFisico.cs",
+              "ToolTip": "C:\\Users\\hola k hace\\Documents\\-IPC2_Practica1_202408977\\codigo\\practica 1 IPC2\\practica 1 IPC2\\LibroFisico.cs",
+              "RelativeToolTip": "practica 1 IPC2\\LibroFisico.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T23:24:09.01Z",
               "EditorCaption": ""
             }
           ]
