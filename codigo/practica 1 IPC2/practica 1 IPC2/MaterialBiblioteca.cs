@@ -44,7 +44,7 @@ namespace practica_1_IPC2
             prestamo=false;
         }
 
-        public void mostrarInformacion() 
+        public  void mostrarInformacion() 
         {
             Console.WriteLine($"Título: {titulo}");
             Console.WriteLine($"Autor: {autor}");
