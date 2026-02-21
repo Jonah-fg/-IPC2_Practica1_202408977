@@ -7,10 +7,10 @@ namespace practica_1_IPC2
 {
     public abstract class MaterialBiblioteca
     {
-        private String titulo;
-        private String autor;
-        private String codigo;
-        private bool prestamo;
+        protected String titulo;
+        protected String autor;
+        protected String codigo;
+        protected bool prestamo;
         
         protected MaterialBiblioteca(string titulo, string autor)
         {
@@ -22,15 +22,25 @@ namespace practica_1_IPC2
 
         public String GenerarCodigo()
         {
-            return Random.Shared.Next(1000, 9999);
+            const string caracteres="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            StringBuilder resultado =new StringBuilder();
+            Random random = new Random();
+
+            for (int i = 0; i < 8; i++)
+            {
+                resultado.Append(caracteres[random.Next(caracteres.Length)]);
+            }
+            return resultado.ToString();
         }
 
-        public void prestarMaterial() 
+        public abstract int DiasPrestamo();
+
+        public virtual void prestarMaterial() 
         {
             if (!prestamo) 
             {
-                Console.WriteLine("Material prestado exitosamente.");
-                prestamo = true;
+                Console.WriteLine($"Material prestado por{DiasPrestamo()} días.");
+                prestamo=true;
             }
             else 
             {
@@ -44,13 +54,8 @@ namespace practica_1_IPC2
             prestamo=false;
         }
 
-        public  void mostrarInformacion() 
-        {
-            Console.WriteLine($"Título: {titulo}");
-            Console.WriteLine($"Autor: {autor}");
-            Console.WriteLine($"Código: {codigo}");
-            Console.WriteLine($"Estado de préstamo: {(prestamo ? "Prestado" : "Disponible")}");
-        }
+        public abstract void MostrarInformacion(); 
+
         public string GetCodigo()
         {
             return codigo;

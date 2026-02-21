@@ -4,21 +4,29 @@ using System.Text;
 
 namespace practica_1_IPC2
 {
-    internal class LibroDigital : MaterialBiblioteca
+    public class LibroDigital : MaterialBiblioteca
     {
-        private double tamañoArchivo;
+        private double TamañoArchivo;
 
         public LibroDigital(string titulo, string autor, double tamañoArchivo) : base(titulo, autor)
         {
-            this.tamañoArchivo = tamañoArchivo;
+            this.TamañoArchivo = tamañoArchivo;
         }
 
-        public void MostrarInformacion()
+        public override int DiasPrestamo()
         {
-            base.mostrarInformacion();
-            Console.WriteLine("Tamaño del archivo: " + tamañoArchivo + " MB");
-            Console.WriteLine("Tiempo máximo de préstamo: 3 días");
+            return 3;
+        }
 
+        public override void MostrarInformacion()
+        {
+            Console.WriteLine($"Título: {titulo}");
+            Console.WriteLine($"Autor: {autor}");
+            Console.WriteLine($"Código: {codigo}");
+            Console.WriteLine($"Estado: {(prestamo ? "Prestado" : "Disponible")}");
+            Console.WriteLine($"Tamaño del archivo: {TamañoArchivo} MB");
+            Console.WriteLine("Tipo: Libro Digital");
+            Console.WriteLine("Tiempo máximo: 3 días");
         }
 
     }
